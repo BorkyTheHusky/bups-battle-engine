@@ -1,10 +1,33 @@
 extends Node
 
 @onready var Hide = $"HideandShowTest"
+var stats = {
+  "party": {
+	"Mira": {
+	  "MaxHp": 20,
+	  "HP": 20,
+	  "FP": 10,
+	  "POW": 7,
+	  "ATK": 1,
+	  "DEF": 3
+		}
+	}
+}
+var estats = {
+  "enemies": {
+	"PaperGoomba": {
+	  "MaxHP": 5,
+	  "HP": 5,
+	  "POW": 2,
+	  "ATK": 1,
+	  "DEF": 0
+		}
+	}
+}
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	print(stats.party.Mira.HP)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
