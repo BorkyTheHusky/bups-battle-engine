@@ -39,7 +39,7 @@ text = "Attacks"
 icon = ExtResource("2_ce63o")
 
 [node name="Camera2D" type="Camera2D" parent="GameManager" unique_id=927493987]
-position = Vector2(579, 322)
+position = Vector2(575, 325)
 
 [node name="HideandShowTest" type="Sprite2D" parent="GameManager" unique_id=1469128151]
 visible = false
